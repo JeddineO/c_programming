@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1669753011 source:c:\users\hp\desktop\parbre\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+	<math.h>
+

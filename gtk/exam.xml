@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window title="                                          Test Macro GTK-2022-2023" width="800" height="800" x="500" y="130" Red="65535" Green="65535" Blue="65535" icon="prebot.ico" scroll="always">
+    <box orientation="vertical">
+        <menu>            
+            <item label="Fichier">
+                <item label="Enregistrer">
+                    <item label="Ouvrir"/>
+                <item label="Fermer"/>
+                    </item>
+                <item label="Enregistrer sous"/>
+                <item label="Enregistrer  au foramt PDF"/>
+                <item label="Ouvrir"/>
+                <item label="Fermer"/>
+            </item>
+            <item label="Acceuil">
+                <item label="Cut"/>
+                <item label="Copy"/>
+                <item label="Paste"/>
+                <item label="Delete"/>
+            </item>
+            <item label="Insertion">
+                <item label="Toolbar">
+                    <item label="Paste"/>
+                    <item label="Delete"/>
+                </item>
+                <item label="Status Bar"/>
+            </item>
+        </menu>
+
+        <fixed>
+            <label text="liste cjoix Multiples" x="500" y="0"/>
+            <box orientation="vertical" name="test" x="500" y="20">
+                <checkbutton label="Mon 1er Choix" width="100"/>
+                <checkbutton label="Mon 2d Choix" active="yes" width="100"/>
+                <checkbutton label="Mon 3e Choix" width="100"/>
+                <checkbutton label="Mon dernier Choix" width="100"/>
+            </box>
+        </fixed>
+
+
+        <fixed>
+            <label text="Liste déroulante : multi Choix " x="10" y="50"/>
+            <box orientation="vertical" width="150" name="testb" x="10" y="85">
+                <box orientation="horizontal" width="100">
+                    <label text="choix parmis 5" width="150"/>
+                    <combo>
+                        <item label="Faite votre choix"/>
+                        <item label="2"/>
+                        <item label="3"/>
+                    </combo>
+                </box>
+                <box orientation="horizontal" width="100">
+                    <label text="choix parmis 5" width="150"/>
+                    <combo>
+                        <item label="Faite votre choix"/>
+                        <item label="2"/>
+                        <item label="3"/>
+                    </combo>
+                </box>
+            </box>
+        </fixed>
+
+        <fixed>
+            <label text="Boutons Radio Hrizontales" x="500" y="0"/>
+            <box orientation="horizontal" width="200" name="testb" x="500" y="20">
+                <radiobutton label="Premier" width="75"/>
+                <radiobutton label="Deuxiem" width="75"/>
+                <radiobutton label="Troiseme" width="75"/>
+            </box>
+        </fixed>
+        
+        
+
+        <fixed>
+            <simplebutton label="OK"  width="100" x="10" y="0"/>
+            <simplebutton label="Quitter"  width="100" x="130" y="0"/>
+        </fixed>
+
+
+        <fixed>
+            <label text="Boutons Radio Verticaes" x="10" y="50"/>
+            <box orientation="vertical" width="100" name="test" x="10" y="65">
+                <radiobutton label="Faible" width="75"/>
+                <radiobutton label="Moyen" width="75"/>
+                <radiobutton label="Assez Bien" width="75"/>
+                <radiobutton label="Bien" width="75"/>
+                <radiobutton label="Très Bien" active="yes" width="75"/>
+            </box>
+        </fixed>
+
+        <fixed>
+            <label text="Saisie du login et de mot de passe : zone de text" x="400" y="0"/>
+            <box orientation="vertical" name="test" width="300" x="400" y="20">
+        
+                <entry text="login" width="150" x="0" y="0"/>
+                <entry text="Mot de passe" width="150" x="500" y="0"/>
+                <checkbutton label="Maitenir la connexion" width="150"/>
+                <simplebutton label="Se connecter"  width="100" x="500" y="0"/>
+                 
+            </box>
+        </fixed>
+        
+
+
+        
+        </box>
+</window>

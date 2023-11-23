@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1665923843 source:c:\users\hp\desktop\chartoint\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1666532160 source:c:\users\hp\desktop\chartofloat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+

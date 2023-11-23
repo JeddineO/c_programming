@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1667316402 source:c:\users\hp\desktop\lesfiles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
+1672495792 source:c:\users\hp\desktop\structuresdedonneés\lesfiles\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+

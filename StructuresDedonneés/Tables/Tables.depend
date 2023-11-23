@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1666469969 source:c:\users\hp\desktop\tables\main.c
+	<stdio.h>
+	<stdlib.h>
+

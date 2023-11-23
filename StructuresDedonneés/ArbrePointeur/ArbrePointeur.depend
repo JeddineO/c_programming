@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1669158395 source:c:\users\hp\desktop\arbrepointeur\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+

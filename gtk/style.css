@@ -1,0 +1,16 @@
+#test {
+    border: 1px solid black;
+    /* Sets a 1px solid red border */
+    text-decoration: overline;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#testb {
+    border: 3px solid black;
+    /* Sets a 1px solid red border */
+}
+
+#box {
+    background-image: url(./icon.png);
+}

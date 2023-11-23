@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667736334 source:c:\users\hp\desktop\tps\structuresdesdonnées\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+

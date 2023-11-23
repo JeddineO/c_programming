@@ -1,0 +1,50 @@
+
+void Insert(Tab *T, int value)
+{
+    int i,j;
+    if (tab_est_vide(*T))
+    {
+        T->tab[++NBelem] = value;
+        return ((int)1);
+    }
+        
+    if (tab_est_satruree(*T))
+        resturn((int)0);
+
+    for(i=0;i<=NbElem;i++)
+    {
+        if(T->Tab[i]>value)
+        {
+            for ( j = T->NbElem; j <= i; j--)
+            {
+                T->Tab[j+1]=T->Tab[j];
+            }
+            T->tab[i]=value;
+            T->NBelem++;
+            return ((int)1);    
+        }
+    }
+
+    T->tab[++NBelem] = value;
+    return ((int)1);   
+
+    
+
+    
+}
+Cellule *triage(Cellule *liste)
+{
+    Tab T;
+    T=init();
+    Cellule ptr;
+    ptr=liste;
+
+    while (ptr)
+    {
+        Insert(T,ptr->info);
+        ptr=ptr->suivant;
+    }
+
+    affiche(T);
+    
+}

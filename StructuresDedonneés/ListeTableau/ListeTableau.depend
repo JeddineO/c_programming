@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667132180 source:c:\users\hp\desktop\listetableau\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+

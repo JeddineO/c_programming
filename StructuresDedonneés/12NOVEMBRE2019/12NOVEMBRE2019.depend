@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1668026236 source:c:\users\hp\desktop\12novembre2019\main.c
+	<stdio.h>
+	<stdlib.h>
+	<malloc.h>
+
